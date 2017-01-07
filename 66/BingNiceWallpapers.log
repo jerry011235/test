@@ -1,0 +1,127 @@
+01/04 11:50:18 PM Uncaught exception
+Traceback (most recent call last):
+  File "shutil.py", line 538, in move
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸' -> 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 238, in on_options_triggered
+  File "shutil.py", line 552, in move
+  File "shutil.py", line 251, in copy2
+  File "shutil.py", line 114, in copyfile
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+01/04 11:50:33 PM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 316, in changeWallpaper
+AttributeError: 'BingNiceWallpapers' object has no attribute 'wallpapers'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "random.py", line 253, in choice
+  File "random.py", line 230, in _randbelow
+ValueError: number of bits must be greater than zero
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 320, in changeWallpaper
+  File "random.py", line 255, in choice
+IndexError: Cannot choose from an empty sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 312, in iconActivated
+  File "BingNiceWallpapers.pyw", line 322, in changeWallpaper
+UnboundLocalError: local variable 'l' referenced before assignment
+
+01/04 11:50:42 PM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 316, in changeWallpaper
+AttributeError: 'BingNiceWallpapers' object has no attribute 'wallpapers'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "random.py", line 253, in choice
+  File "random.py", line 230, in _randbelow
+ValueError: number of bits must be greater than zero
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 320, in changeWallpaper
+  File "random.py", line 255, in choice
+IndexError: Cannot choose from an empty sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 312, in iconActivated
+  File "BingNiceWallpapers.pyw", line 322, in changeWallpaper
+UnboundLocalError: local variable 'l' referenced before assignment
+
+01/04 11:52:55 PM Uncaught exception
+Traceback (most recent call last):
+  File "shutil.py", line 538, in move
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: 'E:\\Pictures\\收藏的必应壁纸' -> 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 238, in on_options_triggered
+  File "shutil.py", line 552, in move
+  File "shutil.py", line 251, in copy2
+  File "shutil.py", line 114, in copyfile
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Pictures\\收藏的必应壁纸'
+
+01/04 11:58:31 PM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 199, in removeCurrentWallpaper
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+01/04 11:59:11 PM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 199, in removeCurrentWallpaper
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+01/05 12:00:57 AM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 199, in removeCurrentWallpaper
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+01/05 12:01:14 AM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 194, in likeCurrentWallpaper
+  File "shutil.py", line 251, in copy2
+  File "shutil.py", line 114, in copyfile
+PermissionError: [Errno 13] Permission denied: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+01/05 12:03:01 AM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 199, in removeCurrentWallpaper
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+01/07 02:23:26 PM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 199, in removeCurrentWallpaper
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+01/07 02:25:22 PM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 199, in removeCurrentWallpaper
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+01/07 02:30:00 PM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 199, in removeCurrentWallpaper
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
+01/07 09:46:59 PM Uncaught exception
+Traceback (most recent call last):
+  File "BingNiceWallpapers.pyw", line 199, in removeCurrentWallpaper
+PermissionError: [WinError 5] 拒绝访问。: 'E:\\Pictures\\必应好壁纸壁纸库\\收藏的必应壁纸'
+
