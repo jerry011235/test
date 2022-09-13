@@ -3,9 +3,8 @@
 name: cl-dev
 
 on:
-  pull_request:
-    types:
-      - opened
+  push
+
 
 
 jobs:
