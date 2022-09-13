@@ -2,9 +2,11 @@ name: ci
 
 
 on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
   pull_request:
-    branches: [ "dev" ]
+    types:
+      - opened
+    branches:
+      - 'dev'
 
 
 
@@ -20,7 +22,7 @@ jobs:
           
       - name: del
         run: |
-          rm 222.txt
+          rm -rf 222.txt
          
           
       - name: Push
