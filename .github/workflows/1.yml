@@ -1,32 +1,19 @@
 name: ci
 
-
 on:
-  pull_request:
-    types:
-      - opened
-    branches:
-      - 'dev'
+  push:
+    branches: [dev]
 
-
-
+      
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          ref: master
-          
-      - name: del
-        run: |
-          rm -rf 222.txt
-         
-          
-      - name: Push
-        run: |
+      - uses: actions/checkout@v3
+      - run: |
+          date > generated.txt
+          git config user.name jerry
+          git config user.email jerry@starsky.com
           git add .
           git commit -m "update"
-          git push origin master
+          git push
