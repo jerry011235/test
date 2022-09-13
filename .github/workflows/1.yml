@@ -1,6 +1,5 @@
 name: ci
 
-
 on:
   push:
     branches:
@@ -9,15 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          ref: master
-        
-      - name: Push
-        run: |
+      - uses: actions/checkout@v3
+      - run: |
           date > generated.txt
           git config user.name jerry-actions
           git config user.email jerry-actions@github.com
