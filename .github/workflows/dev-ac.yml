@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: cl-2
+name: cl-dev
 
 on:
   push:
