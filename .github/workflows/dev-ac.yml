@@ -3,7 +3,9 @@
 name: cl-dev
 
 on:
-  push
+  push:
+    branches:
+      - dev
 
 
 
