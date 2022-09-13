@@ -4,8 +4,8 @@ name: cl-2
 
 on:
   pull_request:
-    types:
-      - opened
+    branches:
+      - master
 
 
 jobs:
