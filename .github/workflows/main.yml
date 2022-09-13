@@ -1,0 +1,30 @@
+name: ci
+
+
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  pull_request:
+    branches: [ "dev" ]
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          
+      - name: del
+        run: |
+          rm 222.txt
+         
+          
+      - name: Push
+        run: |
+          git add .
+          git commit -m "update"
+          git push origin master
