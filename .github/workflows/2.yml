@@ -2,8 +2,11 @@
 
 name: cl-2
 
+on:
+  pull_request:
+    types:
+      - opened
 
-on: pull_request
 jobs:
   build:
     runs-on: ubuntu-latest
