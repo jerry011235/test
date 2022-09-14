@@ -5,9 +5,8 @@ name: cl-dev
 on:
   push:
     branches:
-      - dev
-    paths:
-      - 'good.png'
+      - master
+
 
 
 
