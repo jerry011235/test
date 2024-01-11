@@ -1,0 +1,20 @@
+name: Build and Run
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Build binary
+      run: gcc -o server hello.sh
+
+    - name: Run binary
+      run: ./server
